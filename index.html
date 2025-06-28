@@ -1,37 +1,39 @@
----
-layout: default
-title: Home
----
-{% assign page_category = site.data.category_list[page.category] %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BMGG5QL9GR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  {% include header-home.html %}
-    <div class="container-full">
-      <div class="container grid-xl">
-        <div class="columns negative-m-s">
-          <div class="column col-12 text-center">
-            <h6 class="text-secondary">Select a Category</h6>
-          </div>
-          {% for category in site.data.category_list %}
-          {% capture category_name %}{{ category | first }}{% endcapture %}
-          {% assign page_category = site.data.category_list[category_name] %}
-          <div class="column col-4 col-md-6 col-sm-12">
-            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
-              <div class="card card-link">
-                <div class="card-body text-center my-4">
-                  <h5 class="text-bold">{{ page_category.name }}</h5>
-                      
-                  {% if category[1].size == 1 %}
-                  <p class="m-0">{{ category | last | size }} article</p>
-                  {% else %}
-                  <p class="m-0">{{ category | last | size }} articles</p>
-                  {% endif %}
-                </div>
-              </div>
-            </a>
-          </div>
-          {% endfor %} 
-
-          {% include more-help.html %}
+  gtag('config', 'G-BMGG5QL9GR');
+</script>
+<body>
+  <div class="container-full">
+    <div class="container grid-xl">
+      <div class="columns negative-m-s">
+        <div class="column col-12 text-center">
+          <h6 class="text-secondary">Select a Category</h6>
         </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+            <div class="card card-link">
+              <div class="card-body text-center my-4">
+                <h5 class="text-bold">{{ page_category.name }}</h5>
+                <p class="m-0">{{ category | last | size }} article</p>
+                <p class="m-0">{{ category | last | size }} articles</p>
+              </div>
+            </div>
+          </a>
+        </div>      
       </div>
     </div>
+  </div>
+</body>
+</html>
