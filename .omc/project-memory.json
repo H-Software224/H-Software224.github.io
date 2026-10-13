@@ -1,0 +1,278 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1791897912131,
+  "projectRoot": "/Users/dpluskiawin/Desktop/H-Software224.github.io",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "package.json",
+      "accessCount": 8,
+      "lastAccessed": 1791900216495,
+      "type": "file"
+    },
+    {
+      "path": "components/Header.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1791900741081,
+      "type": "file"
+    },
+    {
+      "path": "data/projects.ts",
+      "accessCount": 3,
+      "lastAccessed": 1791899247998,
+      "type": "file"
+    },
+    {
+      "path": "scripts/fetch-github.mjs",
+      "accessCount": 3,
+      "lastAccessed": 1791899721220,
+      "type": "file"
+    },
+    {
+      "path": "scripts/fetch-badge.mjs",
+      "accessCount": 3,
+      "lastAccessed": 1791899765885,
+      "type": "file"
+    },
+    {
+      "path": "app/globals.css",
+      "accessCount": 3,
+      "lastAccessed": 1791900234566,
+      "type": "file"
+    },
+    {
+      "path": "app/blog/page.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1791900660409,
+      "type": "file"
+    },
+    {
+      "path": "app/blog/[slug]/page.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1791900669503,
+      "type": "file"
+    },
+    {
+      "path": "app/layout.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1791900726004,
+      "type": "file"
+    },
+    {
+      "path": "scripts/copy-icons.mjs",
+      "accessCount": 2,
+      "lastAccessed": 1791898737959,
+      "type": "file"
+    },
+    {
+      "path": "components/TechIcon.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1791898831037,
+      "type": "file"
+    },
+    {
+      "path": "app/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1791898840646,
+      "type": "file"
+    },
+    {
+      "path": "lib/posts.ts",
+      "accessCount": 2,
+      "lastAccessed": 1791900648554,
+      "type": "file"
+    },
+    {
+      "path": "app/sitemap.ts",
+      "accessCount": 2,
+      "lastAccessed": 1791900762132,
+      "type": "file"
+    },
+    {
+      "path": "app/robots.ts",
+      "accessCount": 2,
+      "lastAccessed": 1791900778313,
+      "type": "file"
+    },
+    {
+      "path": "next.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1791898159553,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1791898164418,
+      "type": "file"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1791898167624,
+      "type": "file"
+    },
+    {
+      "path": "components/Footer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791898191730,
+      "type": "file"
+    },
+    {
+      "path": "public/.nojekyll",
+      "accessCount": 1,
+      "lastAccessed": 1791898226043,
+      "type": "file"
+    },
+    {
+      "path": "data/tech-stack.ts",
+      "accessCount": 1,
+      "lastAccessed": 1791898728156,
+      "type": "file"
+    },
+    {
+      "path": "data/profile.ts",
+      "accessCount": 1,
+      "lastAccessed": 1791898809737,
+      "type": "file"
+    },
+    {
+      "path": "app/about/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791898862903,
+      "type": "file"
+    },
+    {
+      "path": "lib/repos.ts",
+      "accessCount": 1,
+      "lastAccessed": 1791899282141,
+      "type": "file"
+    },
+    {
+      "path": "components/ProjectCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791899302230,
+      "type": "file"
+    },
+    {
+      "path": "components/ProjectFilter.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791899310609,
+      "type": "file"
+    },
+    {
+      "path": "components/RepoList.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791899319547,
+      "type": "file"
+    },
+    {
+      "path": "app/projects/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791899326318,
+      "type": "file"
+    },
+    {
+      "path": "data/stats.ts",
+      "accessCount": 1,
+      "lastAccessed": 1791899669677,
+      "type": "file"
+    },
+    {
+      "path": "lib/contributions.ts",
+      "accessCount": 1,
+      "lastAccessed": 1791899673977,
+      "type": "file"
+    },
+    {
+      "path": "lib/stats.ts",
+      "accessCount": 1,
+      "lastAccessed": 1791899679322,
+      "type": "file"
+    },
+    {
+      "path": "components/StatCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791899686302,
+      "type": "file"
+    },
+    {
+      "path": "components/LangBars.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791899692617,
+      "type": "file"
+    },
+    {
+      "path": "components/ActivityGraph.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791899704747,
+      "type": "file"
+    },
+    {
+      "path": "app/stats/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791899743561,
+      "type": "file"
+    },
+    {
+      "path": "content/posts/2026-10-13-github-pages-blog-start.md",
+      "accessCount": 1,
+      "lastAccessed": 1791900271699,
+      "type": "file"
+    },
+    {
+      "path": "app/not-found.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791900298942,
+      "type": "file"
+    },
+    {
+      "path": "app/tags/[tag]/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791900681738,
+      "type": "file"
+    },
+    {
+      "path": "app/feed.xml/route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1791900705759,
+      "type": "file"
+    },
+    {
+      "path": "components/ThemeToggle.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1791900712889,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

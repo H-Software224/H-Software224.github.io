@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"sleep 3; curl -s -o /dev/null -w \\\"%{http_code}\\\\n\\\" http://localhost:4173/about/ 2>&1\",\"description\":\"Retry checking local static server\"}",
+  "error": "Exit code 7\n000",
+  "timestamp": "2026-10-13T13:41:57.425Z",
+  "retry_count": 2
+}
