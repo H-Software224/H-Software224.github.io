@@ -35,7 +35,19 @@ export default function BlogPage() {
               </Link>
               <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-400">
                 {formatDate(post.date)}
-                {post.tags.length > 0 && <> · {post.tags.join(', ')}</>}
+                {post.tags.length > 0 && (
+                  <>
+                    {' · '}
+                    {post.tags.map((tag, i) => (
+                      <span key={tag}>
+                        {i > 0 && ', '}
+                        <Link href={`/tags/${tag}/`} className="hover:underline">
+                          #{tag}
+                        </Link>
+                      </span>
+                    ))}
+                  </>
+                )}
               </p>
               {post.description && (
                 <p className="mt-2 text-sm text-neutral-700 dark:text-neutral-300">

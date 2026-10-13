@@ -46,7 +46,19 @@ export default async function BlogPostPage({
       <h1 className="text-2xl font-bold">{post.title}</h1>
       <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-400">
         {formatDate(post.date)}
-        {post.tags.length > 0 && <> · {post.tags.join(', ')}</>}
+        {post.tags.length > 0 && (
+          <>
+            {' · '}
+            {post.tags.map((tag, i) => (
+              <span key={tag}>
+                {i > 0 && ', '}
+                <Link href={`/tags/${tag}/`} className="hover:underline">
+                  #{tag}
+                </Link>
+              </span>
+            ))}
+          </>
+        )}
       </p>
 
       <div

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ThemeToggle from '@/components/ThemeToggle';
 
 const NAV_ITEMS = [
   { href: '/', label: 'Home' },
@@ -15,17 +16,20 @@ export default function Header() {
         <Link href="/" className="text-lg font-semibold">
           H-Software224
         </Link>
-        <nav aria-label="주요 메뉴">
-          <ul className="flex gap-4 text-sm">
-            {NAV_ITEMS.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href} className="hover:underline">
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <div className="flex items-center gap-4">
+          <nav aria-label="주요 메뉴">
+            <ul className="flex gap-4 text-sm">
+              {NAV_ITEMS.map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="hover:underline">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   );

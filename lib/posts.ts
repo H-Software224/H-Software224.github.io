@@ -56,6 +56,18 @@ export function getAllPostsMeta(): PostMeta[] {
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
+export function getAllTags(): string[] {
+  const tags = new Set<string>();
+  for (const post of getAllPostsMeta()) {
+    for (const tag of post.tags) tags.add(tag);
+  }
+  return [...tags].sort();
+}
+
+export function getPostsByTag(tag: string): PostMeta[] {
+  return getAllPostsMeta().filter((post) => post.tags.includes(tag));
+}
+
 export async function getPostBySlug(slug: string): Promise<Post | null> {
   const filename = listPostFilenames().find((name) => filenameToSlug(name) === slug);
   if (!filename) return null;
