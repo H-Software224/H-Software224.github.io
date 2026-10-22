@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import LinkCircles from '@/components/LinkCircles';
 import { basicInfo, oneLiner, personalMessage } from '@/data/profile';
 
 export default function Home() {
@@ -17,38 +17,9 @@ export default function Home() {
 
       <section>
         <h2 className="text-sm font-semibold text-neutral-500 dark:text-neutral-400">Links</h2>
-        <ul className="mt-2 flex flex-wrap gap-4 text-sm">
-          <li>
-            <a href={basicInfo.github.url} className="hover:underline">
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a href={basicInfo.linkedin.url} className="hover:underline">
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href={basicInfo.instagram.url} className="hover:underline">
-              Instagram
-            </a>
-          </li>
-          <li>
-            <a href={basicInfo.portfolioPdf.url} className="hover:underline">
-              포트폴리오 PDF
-            </a>
-          </li>
-          <li>
-            <a href={basicInfo.baekjoon.url} className="hover:underline">
-              백준
-            </a>
-          </li>
-          <li>
-            <Link href="/about/" className="hover:underline">
-              About 자세히 보기 →
-            </Link>
-          </li>
-        </ul>
+        <div className="mt-4">
+          <LinkCircles />
+        </div>
       </section>
     </div>
   );

@@ -38,29 +38,6 @@ export const projects: Project[] = [
     summary: '게임 아이템 바코드를 스캔해 게임명·설명·제작사 조회',
     repo: 'https://github.com/H-Software224/game_image_detection',
   },
-  {
-    title: 'linknamu',
-    category: 'personal',
-    period: '2026.08',
-    stack: ['TypeScript'],
-    repo: 'https://github.com/H-Software224/linknamu',
-    demo: 'https://linknamu-deb20.vercel.app',
-  },
-  {
-    title: '포트폴리오 웹사이트',
-    category: 'personal',
-    period: '2026.01',
-    stack: ['TypeScript'],
-    summary: '웹 기반 포트폴리오',
-    repo: 'https://github.com/H-Software224/my_portfolio_cursor',
-  },
-  {
-    title: 'railway-app',
-    category: 'personal',
-    period: '2025.11',
-    stack: ['Python'],
-    repo: 'https://github.com/H-Software224/railway-app',
-  },
 
   // B. 캡스톤 · 학술
   {
@@ -107,14 +84,6 @@ export const projects: Project[] = [
     repo: 'https://github.com/H-Software224/illum-AI',
   },
   {
-    title: 'WattStorming',
-    category: 'hackathon',
-    period: '2025.12',
-    stack: [],
-    summary: '2025 BDA X ANIMAION 채용연계형 공모전',
-    repo: 'https://github.com/H-Software224/BDA_ANIMATION_WattStorming',
-  },
-  {
     title: '2025 TEAM 1 Frontend',
     category: 'hackathon',
     period: '2025.04',
@@ -157,14 +126,6 @@ export const projects: Project[] = [
     repo: 'https://github.com/H-Software224/Langchain_Streamlit_demo',
   },
   {
-    title: 'ChecKHUMate',
-    category: 'data-ai',
-    period: '2024.05',
-    stack: ['Flask', '추천 시스템'],
-    summary: 'KHUDA 5기 심화. 기숙사 룸메이트 추천 데모 서비스',
-    repo: 'https://github.com/H-Software224/Demo_ChecKHUMate',
-  },
-  {
     title: '제주 특산물 분석',
     category: 'data-ai',
     period: '2023.12',
@@ -203,14 +164,6 @@ export const projects: Project[] = [
     stack: ['Python'],
     summary: 'BDA 데이터분석 실전반 9조 대표 프로젝트',
     repo: 'https://github.com/H-Software224/data_9haejo',
-  },
-  {
-    title: 'OP.GG 게임 데이터 분석',
-    category: 'data-ai',
-    period: '2025.09',
-    stack: [],
-    summary: '게임 데이터 분석 자동화',
-    repo: 'https://github.com/H-Software224/opgg_data_api_analysis_with_app',
   },
   {
     title: 'DeepAuto AI 과제',

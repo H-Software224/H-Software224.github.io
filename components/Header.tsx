@@ -6,7 +6,7 @@ const NAV_ITEMS = [
   { href: '/about/', label: 'About' },
   { href: '/projects/', label: 'Projects' },
   { href: '/stats/', label: 'Stats' },
-  { href: '/blog/', label: 'Blog' },
+  { href: 'https://velog.io/@han028/posts', label: 'Blog', external: true },
 ];
 
 export default function Header() {
@@ -21,9 +21,15 @@ export default function Header() {
             <ul className="flex gap-4 text-sm">
               {NAV_ITEMS.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="hover:underline">
-                    {item.label}
-                  </Link>
+                  {'external' in item ? (
+                    <a href={item.href} className="hover:underline">
+                      {item.label}
+                    </a>
+                  ) : (
+                    <Link href={item.href} className="hover:underline">
+                      {item.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
