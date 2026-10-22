@@ -10,9 +10,9 @@ export default function Home() {
           <img
             src="/images/profile_photo.jpg"
             alt={`${basicInfo.nameKo} 프로필 사진`}
-            width={96}
-            height={96}
-            className="h-20 w-20 shrink-0 rounded-full border border-neutral-200 object-cover object-top sm:h-24 sm:w-24 dark:border-neutral-800"
+            width={144}
+            height={192}
+            className="h-36 w-28 shrink-0 rounded-lg border border-neutral-200 object-cover object-top sm:h-48 sm:w-36 dark:border-neutral-800"
           />
         </div>
         <p className="mt-3 text-neutral-700 dark:text-neutral-300">{oneLiner}</p>
