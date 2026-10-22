@@ -5,7 +5,16 @@ export default function Home() {
   return (
     <div className="space-y-10">
       <section>
-        <h1 className="text-2xl font-bold">{basicInfo.nameKo} (Han, Ju-Sang)</h1>
+        <div className="flex items-center justify-between gap-4">
+          <h1 className="text-2xl font-bold">{basicInfo.nameKo} (Han, Ju-Sang)</h1>
+          <img
+            src="/images/profile_photo.jpg"
+            alt={`${basicInfo.nameKo} 프로필 사진`}
+            width={96}
+            height={96}
+            className="h-20 w-20 shrink-0 rounded-full border border-neutral-200 object-cover object-top sm:h-24 sm:w-24 dark:border-neutral-800"
+          />
+        </div>
         <p className="mt-3 text-neutral-700 dark:text-neutral-300">{oneLiner}</p>
       </section>
 
