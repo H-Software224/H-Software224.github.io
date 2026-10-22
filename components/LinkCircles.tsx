@@ -43,7 +43,7 @@ const items: LinkItem[] = [
   { label: 'LinkedIn', href: basicInfo.linkedin.url, external: true, icon: filled(LINKEDIN_PATH) },
   { label: 'Instagram', href: basicInfo.instagram.url, external: true, icon: filled(INSTAGRAM_PATH) },
   {
-    label: '포트폴리오 PDF',
+    label: '포트폴리오',
     href: basicInfo.portfolioPdf.url,
     external: true,
     icon: stroked(

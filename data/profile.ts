@@ -29,8 +29,8 @@ export const basicInfo: BasicInfo = {
   linkedin: { label: 'in/h-software224', url: 'https://www.linkedin.com/in/h-software224' },
   instagram: { label: 'jusangle.h', url: 'https://www.instagram.com/jusangle.h/' },
   portfolioPdf: {
-    label: 'intr.pdf',
-    url: 'https://my-canvas-portfolio.s3.ap-northeast-2.amazonaws.com/intr.pdf',
+    label: 'hanjusang-poteupolrio-websaiteu.replit.app',
+    url: 'https://hanjusang-poteupolrio-websaiteu.replit.app/',
   },
   baekjoon: { label: 'han05280505', url: 'https://solved.ac/han05280505' },
 };

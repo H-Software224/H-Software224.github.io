@@ -102,7 +102,7 @@
 | 커리어 목표 | Data Analyst / Data Scientist / Machine Learning Engineer |
 | LinkedIn | [in/h-software224](https://www.linkedin.com/in/h-software224) |
 | Instagram | [jusangle.h](https://www.instagram.com/jusangle.h/) |
-| 포트폴리오 PDF | [intr.pdf](https://my-canvas-portfolio.s3.ap-northeast-2.amazonaws.com/intr.pdf) |
+| 포트폴리오 | [hanjusang-poteupolrio-websaiteu.replit.app](https://hanjusang-poteupolrio-websaiteu.replit.app/) |
 | 백준 | [han05280505](https://solved.ac/han05280505) |
 
 ### 5.2 한 줄 소개 · 개인 메시지
